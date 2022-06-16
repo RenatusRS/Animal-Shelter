@@ -1,0 +1,14 @@
+#dugme_prijava{
+    background-color:rgb(27, 155, 244 );
+    border-color: rgb(27, 155, 244 );
+}
+
+#dugme_prijava:hover {
+    background-color:rgb(20, 139, 222);
+    border-color: rgb(20, 139, 222);
+}
+
+#dugme_prijava:focus {
+    background-color:rgb(8, 108, 178 );
+    border-color: rgb(8, 108, 178 );
+}
