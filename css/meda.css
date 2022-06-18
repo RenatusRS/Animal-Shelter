@@ -1,5 +1,5 @@
 .slider {
-    width: 700px;
+    width: 70%;
     margin: 0 auto 20px;
     text-align: center;
 }
@@ -38,4 +38,9 @@
 .next:before {
   content: '>';
   right: 0;
+}
+
+hr {
+  clear: both;
+  visibility: hidden;
 }
