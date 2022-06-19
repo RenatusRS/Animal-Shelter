@@ -7,7 +7,7 @@ $(function () {
 
     for (let i = 0; i < comments.length; i++) {
         if (comments[i]["ad"] == ad) {
-            $("#comments").append('<div><h5>' + users[comments[i]["user"]]["username"] + "</h5>" + comments[i]["text"] + "</div>");
+            $("#comments").append(`<div><h5>${users[comments[i]["user"]]["username"]}</h5>${comments[i]["text"]}</div>`);
         }
     }
 
