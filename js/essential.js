@@ -167,15 +167,43 @@ var trans = {
 
     "logout": {
         html: {
-            "rs": "Odjavi Se",
+            "rs": "Odjavi se",
             "en": "Logout",
         }
     },
 
     "login": {
         html: {
-            "rs": "Prijavi Se",
+            "rs": "Prijavi se",
             "en": "Login",
+        }
+    },
+
+    "myads": {
+        html: {
+            "rs": "Moji oglasi",
+            "en": "My ads",
+        }
+    },
+
+    "mycomments": {
+        html: {
+            "rs": "Moji komentari",
+            "en": "My comments"
+        }
+    },
+
+    "ads": {
+        html: {
+            "rs": "Oglasi",
+            "en": "Ads",
+        }
+    },
+
+    "leavecomments": {
+        html: {
+            "rs": "Ostavi komentar",
+            "en": "Leave comment",
         }
     }
 
