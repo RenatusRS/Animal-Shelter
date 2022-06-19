@@ -1,7 +1,13 @@
-function load_user() {
-    if (document.getElementById("user_id").value == "hose" && document.getElementById("pass_id").value == "hose") {
-        var korisnik= document.getElementById("user_id").value;
-        localStorage.setItem("korisnik", korisnik);
-        window.location.href = 'index.html';
-    }
-}
+$(function () {
+    $("#button_login").click(function () {
+        for (let i = 0; i < users.length; i++) {
+            if ($("#user_id").val() == users[i]["username"]) {
+                console.log("TEST");
+                if ($("#pass_id").val() != users[i]["password"]) break;
+
+                localStorage.setItem("logged", i);
+                window.location.href = "index.html";
+            }
+        }
+    })
+})
