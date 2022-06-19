@@ -252,7 +252,7 @@ $(function () {
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item"> <a class="t-lostpets nav-link " href="/VD-Project/izgubljenilubimci.html"></a> </li>
+                        <li class="nav-item"> <a class="t-lostpets nav-link " href="/VD-Project/oglasi.html"></a> </li>
                         <li class="nav-item logged"> <a class="t-createad nav-link " href="/VD-Project/napravioglas.html"></a> </li>
                         <li class="nav-item logged"> <a class="t-myacc nav-link " href="/VD-Project/profil.html"></a> </li>
                         <li class="nav-item logged"> <a id="logout" class="t-logout pointer nav-link " ></a> </li>
