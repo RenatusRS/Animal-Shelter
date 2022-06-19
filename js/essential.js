@@ -160,8 +160,8 @@ var trans = {
 
     "copyright": {
         html: {
-            "rs": "Copyright © 2022, Plava Šapa, Uroš Lončar, Đorđe Stanjoević<br> Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu",
-            "en": "Copyright © 2022, Blue Paw, Uroš Lončar, Đorđe Stanjoević<br> Software Engineering department, Faculty of Electrical Engineering, University of Belgrade"
+            "rs": "Copyright © 2022, Plava Šapa, Uroš Lončar, Đorđe Stanojević<br> Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu",
+            "en": "Copyright © 2022, Blue Paw, Uroš Lončar, Đorđe Stanojević<br> Software Engineering department, Faculty of Electrical Engineering, University of Belgrade"
         }
     },
 
