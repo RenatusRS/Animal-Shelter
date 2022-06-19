@@ -163,6 +163,20 @@ var trans = {
             "rs": "Copyright © 2022, Plava Šapa, Uroš Lončar, Đorđe Stanjoević<br> Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu",
             "en": "Copyright © 2022, Blue Paw, Uroš Lončar, Đorđe Stanjoević<br> Software Engineering department, Faculty of Electrical Engineering, University of Belgrade"
         }
+    },
+
+    "logout": {
+        html: {
+            "rs": "Odjavi Se",
+            "en": "Logout",
+        }
+    },
+
+    "login": {
+        html: {
+            "rs": "Prijavi Se",
+            "en": "Login",
+        }
     }
 
 }
@@ -238,8 +252,10 @@ $(function () {
                         </ul>
                     </li>
                     <li class="nav-item"> <a class="t-lostpets nav-link " href="#"></a> </li>
-                    <li class="nav-item"> <a class="t-createad nav-link " href="#"></a> </li>
-                    <li class="nav-item"> <a class="t-myacc nav-link " href="#"></a> </li>
+                    <li class="nav-item logged"> <a class="t-createad nav-link " href="#"></a> </li>
+                    <li class="nav-item logged"> <a class="t-myacc nav-link " href="#"></a> </li>
+                    <li class="nav-item logged"> <a id="logout" class="t-logout nav-link " href="#"></a> </li>
+                    <li class="nav-item notlogged"> <a  class="t-login nav-link " href="#"></a> </li>
                 </ul>
             </div>
             <span id="lang" class="nav-link " href="#">
@@ -250,7 +266,20 @@ $(function () {
     </nav>
 </header>`).append(`<footer>
     <span class="t-copyright"></span>
-    </footer>`)
+    </footer>`);
+
+    if (logged != null) {
+        $(".logged").show();
+        $(".notlogged").hide();
+    } else {
+        $(".notlogged").show();
+        $(".logged").hide();
+    }
+
+    $("#logout").click(function () {
+        localStorage.setItem("logged", null);
+        window.location.href = "index.html";
+    })
 
     var translate = function () {
         $('[class^="t-"]').each(function () {
