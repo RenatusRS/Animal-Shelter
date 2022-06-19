@@ -37,8 +37,10 @@ footer {
     background-color: lightblue;
     color: #5a5766;
     text-align: center;
+    position: fixed;
     padding: 15px;
     margin-top: 50px;
+    bottom: 0;
 }
 
 header {
@@ -52,4 +54,8 @@ header {
 
 #logo {
     width: 60px;
+}
+
+.pointer {
+    cursor: pointer;
 }
