@@ -273,7 +273,7 @@ $(function () {
     );
 
     $("head").append(`
-    <link rel="icon" type="image/x-icon" href="/VD-Project/assets/logo.png">
+    <link rel="icon" type="image/x-icon" href="/VD-Project/assets/favicon.png">
     `)
 
     if (logged != null) {
