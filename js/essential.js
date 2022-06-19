@@ -200,7 +200,7 @@ var trans = {
         }
     },
 
-    "leavecomments": {
+    "leavecomment": {
         html: {
             "rs": "Ostavi komentar",
             "en": "Leave comment",
@@ -244,7 +244,7 @@ $(function () {
     <header>
         <nav class="navbar navbar-expand-lg  bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img id="logo" src="/VD-Project/assets/logo.png"></a>
+                <a class="navbar-brand" href="/VD-Project/index.html"><img id="logo" src="/VD-Project/assets/logo.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
