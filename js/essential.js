@@ -146,7 +146,7 @@ var trans = {
 
     "createad": {
         html: {
-            "rs": "Napravi Olgas",
+            "rs": "Napravi Oglas",
             "en": "Create Ad"
         }
     },
