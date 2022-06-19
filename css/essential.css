@@ -37,10 +37,11 @@ footer {
     background-color: lightblue;
     color: #5a5766;
     text-align: center;
-    position: fixed;
     padding: 15px;
     margin-top: 50px;
+    position: absolute;
     bottom: 0;
+    height: 5rem;
 }
 
 header {
@@ -58,4 +59,12 @@ header {
 
 .pointer {
     cursor: pointer;
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    padding-bottom: 5rem;
 }
