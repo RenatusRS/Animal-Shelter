@@ -32,5 +32,18 @@ $(document).ready(function(){
     })
 
 
+    $('#btnYearSrt').click(function (){
+        $('.card-deck .card').sort(function(a,b) {
+            return parseInt($(a).attr("starost")) > parseInt($(b).attr("starost")) ? 1 : -1;
+        }).appendTo(".card-deck");
+    })
+
+    $('#btnYearSrt2').click(function (){
+        $('.card-deck .card').sort(function(a,b) {
+            return parseInt($(a).attr("starost")) < parseInt($(b).attr("starost")) ? 1 : -1;
+        }).appendTo(".card-deck");
+    })
+
+
 
   });
