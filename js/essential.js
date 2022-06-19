@@ -146,7 +146,7 @@ var trans = {
 
     "createad": {
         html: {
-            "rs": "Napravi Olgas",
+            "rs": "Napravi Oglas",
             "en": "Create Ad"
         }
     },
@@ -167,15 +167,43 @@ var trans = {
 
     "logout": {
         html: {
-            "rs": "Odjavi Se",
+            "rs": "Odjavi se",
             "en": "Logout",
         }
     },
 
     "login": {
         html: {
-            "rs": "Prijavi Se",
+            "rs": "Prijavi se",
             "en": "Login",
+        }
+    },
+
+    "myads": {
+        html: {
+            "rs": "Moji oglasi",
+            "en": "My ads",
+        }
+    },
+
+    "mycomments": {
+        html: {
+            "rs": "Moji komentari",
+            "en": "My comments"
+        }
+    },
+
+    "ads": {
+        html: {
+            "rs": "Oglasi",
+            "en": "Ads",
+        }
+    },
+
+    "leavecomment": {
+        html: {
+            "rs": "Ostavi komentar",
+            "en": "Leave comment",
         }
     }
 
@@ -216,7 +244,7 @@ $(function () {
     <header>
         <nav class="navbar navbar-expand-lg  bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img id="logo" src="/VD-Project/assets/logo.png"></a>
+                <a class="navbar-brand" href="/VD-Project/index.html"><img id="logo" src="/VD-Project/assets/logo.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
