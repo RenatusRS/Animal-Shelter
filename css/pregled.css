@@ -4,8 +4,16 @@
     align-content: flex-start;
 }
 
-.kartice{
+.card-deck{
     margin-top: 25px;
+}
+
+.card{
+    padding: 0 !important;
+}
+
+p{
+    padding:0 !important;
 }
 
 .btn{

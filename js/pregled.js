@@ -1,5 +1,5 @@
-function searchDog(){
-    var ulaz = document.getElementById('dog_filter').value.toLowerCase();
+function searchFnc(){
+    var ulaz = document.getElementById('filter').value.toLowerCase();
 
     var kartice=document.getElementById('card-deck');
     var kartice_arr=document.getElementsByClassName('col-lg-4 mb-4');
