@@ -95,10 +95,6 @@ if (localStorage.getItem("lang") == null) {
 }
 
 var trans = {
-    
-
-
-
     "oglastit": {
         html: {
             "rs": "Oglas - Plava Šapa",
@@ -232,7 +228,6 @@ var trans = {
         }
     },
 
-
     "name": {
         html: {
             "rs": "Ime",
@@ -277,7 +272,7 @@ var trans = {
 
     "anagod": {
         html: {
-            "rs": "3 godine stara",
+            "rs": "3 godine starosti",
             "en": "3 years old"
         }
     },
@@ -312,7 +307,7 @@ var trans = {
 
     "zucaage": {
         html: {
-            "rs": "1 godina i 2 meseca",
+            "rs": "1 godina i 2 meseca starosti",
             "en": "1 year and 2 months old"
         }
     },
@@ -372,7 +367,7 @@ var trans = {
             "en": "Sterilized, vaccinated and cleared of parasites. I'm cuddly, I like to sit on your lap, I get along well with other cats. I'm just asking for someone to love me the way I will love you."
         }
     },
-    
+
 
     "lunaprev": {
         html: {
@@ -425,11 +420,11 @@ var trans = {
 
     "medaage": {
         html: {
-            "rs": "8 meseci",
+            "rs": "8 meseci starosti",
             "en": "8 months old"
         }
     },
-    
+
     "ediful": {
         html: {
             "rs": "Jedini je papagaj koji može izgovoriti rečenice sa smislom (npr. da pozdravi vlasnika kad uđe u stan). U mogućnosti je da logički povezuje reči u rečenice i upotrebi ih u pravo vreme. Sintagme kao što su „Dobar dan“ ili „Dobro veče“ izgovoriće baš u momentu kada je zaista dan, odnosno veče. Po intelektu je dokazano da su žako papagaji na nivou petogodišnjeg deteta, a po nekim podacima može da nauči da oponaša i do 800 reči što ga svrstava među najintligentnije životinje. Uz pravilnu negu, održavanje i ishranu ova vrsta papagaja može da živi preko 60 godina. Žako spada u velike papagaje.",
@@ -437,7 +432,7 @@ var trans = {
         }
     },
 
-    
+
     "africang": {
         html: {
             "rs": "Žako",
@@ -445,7 +440,7 @@ var trans = {
         }
     },
 
-    
+
     "tigrica": {
         html: {
             "rs": "Australijska tigrica",
@@ -462,7 +457,7 @@ var trans = {
 
     "donage": {
         html: {
-            "rs": "4 godine",
+            "rs": "4 godine starosti",
             "en": "4 years old"
         }
     },
@@ -575,7 +570,7 @@ var trans = {
 
     "home": {
         html: {
-            "rs": "Početna Stranica",
+            "rs": "Početna stranica",
             "en": "Home"
         }
     },
@@ -652,15 +647,15 @@ var trans = {
 
     "createad": {
         html: {
-            "rs": "Napravi Oglas",
-            "en": "Create Ad"
+            "rs": "Napravi oglas",
+            "en": "Create ad"
         }
     },
 
     "myacc": {
         html: {
-            "rs": "Moj Nalog",
-            "en": "My Account"
+            "rs": "Moj nalog",
+            "en": "My account"
         }
     },
 
