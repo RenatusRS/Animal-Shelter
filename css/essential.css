@@ -38,7 +38,7 @@
 
 body::after {
     content: "";
-    background: #006989;
+    background: white;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -63,8 +63,8 @@ footer {
     border-top: black 2px solid;
 }
 
-header {
-    margin-bottom: 10px;
+nav {
+    margin-bottom: 15px;
 }
 
 .flag {
@@ -82,9 +82,12 @@ header {
 
 body {
     position: relative;
-    color: white;
 }
 
 .container {
     padding-bottom: 5rem;
+}
+
+p {
+    padding: 0;
 }
