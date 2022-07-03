@@ -200,7 +200,7 @@ var trans = {
     "napraviotit": {
         html: {
             "rs": "Napravi oglas - Plava Šapa",
-            "en": "Create an ad - Blue Paw"
+            "en": "Create ad - Blue Paw"
         }
     },
 
@@ -237,6 +237,13 @@ var trans = {
         html: {
             "rs": "Ime",
             "en": "Name"
+        }
+    },
+
+    "ljubimac": {
+        html: {
+            "rs": "Ime ljubimca",
+            "en": "Pet name"
         }
     },
 
@@ -484,7 +491,7 @@ var trans = {
     "findmore": {
         html: {
             "rs": "Otkrij više",
-            "en": "Find out more"
+            "en": "See more"
         }
     },
 
@@ -562,7 +569,7 @@ var trans = {
     "makead": {
         html: {
             "rs": "Napravite oglas",
-            "en": "Create an ad"
+            "en": "Create ad"
         }
     },
 
@@ -577,6 +584,27 @@ var trans = {
         html: {
             "rs": "O nama",
             "en": "About"
+        }
+    },
+
+    "psi_z": {
+        html: {
+            "rs": "Psi su verovatno prve pripitomljene životinje, koje čoveku verno služe sve do danas.",
+            "en": "Dogs are probably the first domesticated animals, which faithfully serve man until today."
+        }
+    },
+
+    "macke_z": {
+        html: {
+            "rs": "Mačke su poznate po samostalnosti, što je razlog više zašto su tako dobri kućni ljubimci.",
+            "en": "Cats are known for being very independent, which is all the more reason why they make such good pets."
+        }
+    },
+
+    "ptice_z": {
+        html: {
+            "rs": "Ono što privlači ljude koji drže ptice kao kućne ljubimce su bogatstvo boja, njihov cvrkut i laka nega.",
+            "en": "What attracts people who keep birds as pets are the richness of colors, their chirping and easy care."
         }
     },
 
