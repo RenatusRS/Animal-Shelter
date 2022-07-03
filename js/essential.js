@@ -167,6 +167,34 @@ var trans = {
         }
     },
 
+    "zucaage": {
+        html: {
+            "rs": "1 godina i 2 meseca",
+            "en": "1 year and 2 months old"
+        }
+    },
+
+    "cock": {
+        html: {
+            "rs": "Nimfa",
+            "en": "Cockatiel"
+        }
+    },
+
+    "gasaful": {
+        html: {
+            "rs": "Nimfa papagaji su dobri i poslušni učenici pa se lako i brzo pripitome. Dužina života nimfi u zatočeništvu je uglavnom 15-20 godina, iako neki autori to smanjuju na samo 10-15 godina. U oponašanju govora baš i nisu slavne, ali dvadesetak lakših reči i po koju kratku rečenicu nauče vrlo brzo iako ponekad izgovor nije čist. Mlade nimfe do tri meseca starosti vrlo brzo nauče govoriti, ali u početku treba birati reči koje nalikuju njihovoj pesmi. Nimfu možete puštati da slobodno leti po stanu, ali vodite računa da obavezno imate zavese na prozorima (i da su prozori zatvoreni da ne bi pobegle) jer ne vide staklo i mogu da se povrede. Kada se papagaj prilagodi i privikne na ukućane i prostor, nemojte se iznenaditi ako doleti na sto, rame ili glavu. Možete ga naučiti čak i da jede iz ruke.",
+            "en": "Cockatiels are good and obedient students, so they are easily and quickly tamed. The lifespan of nymphs in captivity is generally 15-20 years, although some authors reduce this to only 10-15 years. They are not very good at imitating speech, but they learn about twenty easy words and some short sentences very quickly, although sometimes the pronunciation is not clear. Young cockatiels up to three months of age learn to speak very quickly, but at first you should choose words that resemble their song. You can let them fly freely around the apartment, but make sure you have curtains on the windows (and that the windows are closed so they don't escape) because they can't see the glass and can injure themselves. When the parrot adapts and gets used to the household and the space, do not be surprised if it flies to the table, shoulder or head. You can even teach him to eat out of your hand."
+        }
+    },
+
+    "shiba": {
+        html: {
+            "rs": "Šiba Inu",
+            "en": "Shiba Inu"
+        }
+    },
+
     "donprev": {
         html: {
             "rs": "Don je umiljati nemački ovčar, velika maza i slaže se sa drugim kucama.",
@@ -181,12 +209,27 @@ var trans = {
         }
     },
 
+    "didiful": {
+        html: {
+            "rs": "Tigrice su vrlo društveni kućni ljubimci i vole da žive u paru. Ukoliko će biti kod kuće same više od 5 sati dnevno, svakako nabavite još jednu tigricu. Usamljena tigrica može i da se razboli. Nije redak slučaj da, ukoliko nemaju društvo, ovi kućni ljubimci počnu da čupaju sebi perje sa krila i repa. Imaju sposobnost oponašanja ljudskog govora i drugih zvukova, pa ukoliko im posvetite malo vremena i truda svaki dan, mogu da nauče da izgovaraju nekoliko reči. Za razliku od drugih vrsta papagaja kao što su ara, žako i kakadu, žive od 10 do 14 godina. Vrlo su živahne i radoznale, pa su idealni kućni ljubimci za decu.",
+            "en": "Budgerigars are very social pets and like to live in pairs. If she will be home alone for more than 5 hours a day, definitely get another budgerigar. A lonely budgerigar  can also get sick. It is not a rare case that, if they do not have company, these pets start to pluck feathers from their wings and tails. They have the ability to imitate human speech and other sounds, so if you give them a little time and effort every day, they can learn to say a few words. Unlike other types of parrots such as macaws, jays and cockatoos, they live from 10 to 14 years. They are very lively and curious, so they are ideal pets for children."
+        }
+    },
+
+    "didiful": {
+        html: {
+            "rs": "Tigrice su vrlo društveni kućni ljubimci i vole da žive u paru. Ukoliko će biti kod kuće same više od 5 sati dnevno, svakako nabavite još jednu tigricu. Usamljena tigrica može i da se razboli. Nije redak slučaj da, ukoliko nemaju društvo, ovi kućni ljubimci počnu da čupaju sebi perje sa krila i repa. Imaju sposobnost oponašanja ljudskog govora i drugih zvukova, pa ukoliko im posvetite malo vremena i truda svaki dan, mogu da nauče da izgovaraju nekoliko reči. Za razliku od drugih vrsta papagaja kao što su ara, žako i kakadu, žive od 10 do 14 godina. Vrlo su živahne i radoznale, pa su idealni kućni ljubimci za decu.",
+            "en": "Budgerigars are very social pets and like to live in pairs. If she will be home alone for more than 5 hours a day, definitely get another budgerigar. A lonely budgerigar  can also get sick. It is not a rare case that, if they do not have company, these pets start to pluck feathers from their wings and tails. They have the ability to imitate human speech and other sounds, so if you give them a little time and effort every day, they can learn to say a few words. Unlike other types of parrots such as macaws, jays and cockatoos, they live from 10 to 14 years. They are very lively and curious, so they are ideal pets for children."
+        }
+    },
+
     "lunafull": {
         html: {
             "rs": "Sterilisana, vakcinisana i ociscena od parazita. Umiljata sam, volim da sedim u krilu, lepo se slazem sa drugim macama. Samo trazim da me neko voli onako kako cu ja voleti vas.",
             "en": "Sterilized, vaccinated and cleared of parasites. I'm cuddly, I like to sit on your lap, I get along well with other cats. I'm just asking for someone to love me the way I will love you."
         }
     },
+    
 
     "lunaprev": {
         html: {
@@ -216,10 +259,68 @@ var trans = {
         }
     },
 
+    "medaful": {
+        html: {
+            "rs": "Meda je mali zlatni retriver, izuzetne naravi, savršeno dobar u stanu i lepo se slaže sa drugim kucama. Potreban mu je dom i odgovorna porodica. Kuca se nalazi se u Beogradu.",
+            "en": "Meda is a small golden retriever, with an exceptional nature, perfectly good in an apartment and gets along well with other houses. He needs a home and a responsible family. The house is located in Belgrade."
+        }
+    },
+
     "male": {
         html: {
             "rs": "Mužijak",
             "en": "Male"
+        }
+    },
+
+    "goldenr": {
+        html: {
+            "rs": "Zlatni retriver",
+            "en": "Golden retreiver"
+        }
+    },
+
+    "medaage": {
+        html: {
+            "rs": "8 meseci",
+            "en": "8 months old"
+        }
+    },
+    
+    "ediful": {
+        html: {
+            "rs": "Jedini je papagaj koji može izgovoriti rečenice sa smislom (npr. da pozdravi vlasnika kad uđe u stan). U mogućnosti je da logički povezuje reči u rečenice i upotrebi ih u pravo vreme. Sintagme kao što su „Dobar dan“ ili „Dobro veče“ izgovoriće baš u momentu kada je zaista dan, odnosno veče. Po intelektu je dokazano da su žako papagaji na nivou petogodišnjeg deteta, a po nekim podacima može da nauči da oponaša i do 800 reči što ga svrstava među najintligentnije životinje. Uz pravilnu negu, održavanje i ishranu ova vrsta papagaja može da živi preko 60 godina. Žako spada u velike papagaje.",
+            "en": "It is the only parrot that can speak meaningful sentences (eg to greet the owner when he enters the apartment). He is able to logically link words into sentences and use them at the right time. Phrases such as Good day or Good evening will be uttered at the exact moment when it is really day or evening. In terms of intellect, it has been proven that jacoko parrots are at the level of a five-year-old child, and according to some data, they can learn to imitate up to 800 words, which ranks them among the most intelligent animals. With proper care, maintenance and nutrition, this type of parrot can live over 60 years. Jaco belongs to the large parrots."
+        }
+    },
+
+    
+    "africang": {
+        html: {
+            "rs": "Žako",
+            "en": "Afrikan gray parrot"
+        }
+    },
+
+    
+    "tigrica": {
+        html: {
+            "rs": "Australijska tigrica",
+            "en": "Budgerigar"
+        }
+    },
+
+    "germans": {
+        html: {
+            "rs": "Nemački ovčar",
+            "en": "German shepherd"
+        }
+    },
+
+    "donage": {
+        html: {
+            "rs": "4 godine",
+            "en": "4 years old"
         }
     },
 
