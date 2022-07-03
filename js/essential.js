@@ -95,6 +95,142 @@ if (localStorage.getItem("lang") == null) {
 }
 
 var trans = {
+    
+
+
+
+    "oglastit": {
+        html: {
+            "rs": "Oglas - Plava Šapa",
+            "en": "Ad - Blue Paw"
+        }
+    },
+
+    "anatit": {
+        html: {
+            "rs": "Ana - Plava Šapa",
+            "en": "Ana - Blue Paw"
+        }
+    },
+
+    "beatit": {
+        html: {
+            "rs": "Bea - Plava Šapa",
+            "en": "Bea - Blue Paw"
+        }
+    },
+
+    "lunatit": {
+        html: {
+            "rs": "Luna - Plava Šapa",
+            "en": "Luna - Blue Paw"
+        }
+    },
+
+    "dontit": {
+        html: {
+            "rs": "Don - Plava Šapa",
+            "en": "Don - Blue Paw"
+        }
+    },
+
+    "medatit": {
+        html: {
+            "rs": "Meda - Plava Šapa",
+            "en": "Meda - Blue Paw"
+        }
+    },
+
+    "zucatit": {
+        html: {
+            "rs": "Žuća - Plava Šapa",
+            "en": "Žuća - Blue Paw"
+        }
+    },
+
+    "diditit": {
+        html: {
+            "rs": "Didi - Plava Šapa",
+            "en": "Didi - Blue Paw"
+        }
+    },
+
+    "editit": {
+        html: {
+            "rs": "Edi - Plava Šapa",
+            "en": "Edi - Blue Paw"
+        }
+    },
+
+    "gasatit": {
+        html: {
+            "rs": "Gaša - Plava Šapa",
+            "en": "Gaša - Blue Paw"
+        }
+    },
+
+    "macketit": {
+        html: {
+            "rs": "Mačke - Plava Šapa",
+            "en": "Cats - Blue Paw"
+        }
+    },
+
+    "psitit": {
+        html: {
+            "rs": "Psi - Plava Šapa",
+            "en": "Dogs - Blue Paw"
+        }
+    },
+
+    "pticetit": {
+        html: {
+            "rs": "Ptice - Plava Šapa",
+            "en": "Avians - Blue Paw"
+        }
+    },
+
+    "logintit": {
+        html: {
+            "rs": "Prijava - Plava Šapa",
+            "en": "Login - Blue Paw"
+        }
+    },
+
+    "napraviotit": {
+        html: {
+            "rs": "Napravi oglas - Plava Šapa",
+            "en": "Create an ad - Blue Paw"
+        }
+    },
+
+    "oglasitit": {
+        html: {
+            "rs": "Oglasi - Plava Šapa",
+            "en": "Ads - Blue Paw"
+        }
+    },
+
+    "onamatit": {
+        html: {
+            "rs": "O nama - Plava Šapa",
+            "en": "About us - Blue Paw"
+        }
+    },
+
+    "profiltit": {
+        html: {
+            "rs": "Profil - Plava Šapa",
+            "en": "Profile - Blue Paw"
+        }
+    },
+
+    "zivotinjetit": {
+        html: {
+            "rs": "Životinje - Plava Šapa",
+            "en": "Animals - Blue Paw"
+        }
+    },
 
 
     "name": {
