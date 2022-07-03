@@ -12,6 +12,61 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href=""><img id="logo" src="assets/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="t-home nav-link" href="index.html"></a></li>
+                    <li class="nav-item"> <a class="t-about nav-link " href="onama.html"></a></li>
+                    <li class="nav-item dropdown" id="myDropdown">
+                        <a class="t-animals nav-link dropdown-toggle" href="zivotinje.html"
+                            data-bs-toggle="dropdown"></a>
+                        <ul class="dropdown-menu first">
+                            <li><a class="t-dogs dropdown-item" href="zivotinje/psi.html"></a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="zivotinje/psi/meda.html">Meda</a></li>
+                                    <li><a class="dropdown-item" href="zivotinje/psi/zuca.html">Žuća</a></li>
+                                    <li><a class="dropdown-item" href="zivotinje/psi/don.html">Don</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="t-cats dropdown-item" href="zivotinje/macke.html"></a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="zivotinje/macke/ana.html">Ana</a></li>
+                                    <li><a class="dropdown-item" href="zivotinje/macke/luna.html">Luna</a></li>
+                                    <li><a class="dropdown-item" href="zivotinje/macke/bea.html">Bea</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="t-birds dropdown-item" href="zivotinje/ptice.html"></a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="zivotinje/ptice/didi.html">Didi</a></li>
+                                    <li><a class="dropdown-item" href="zivotinje/ptice/edi.html">Edi</a></li>
+                                    <li><a class="dropdown-item" href="zivotinje/ptice/gasa.html">Gaša</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="t-lostpets nav-link active" href="oglasi.html"></a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item logged"><a class="t-createad nav-link" href="napravioglas.html"></a></li>
+                    <li class="nav-item logged"><a class="t-myacc nav-link " href="profil.html"></a></li>
+                    <li class="nav-item logged"><a id="logout" class="t-logout pointer nav-link"></a></li>
+                    <li class="nav-item notlogged"><a href="login.html" class="t-login nav-link"></a></li>
+                    <li class="nav-item"></li><span id="lang" class="nav-link pointer">
+                        <img src="assets/flags/rs.svg" class="flag rs"></i>
+                        <img src="assets/flags/gb.svg" class="flag en"></i>
+                    </span></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
         <div class="breadcrumb">
             <a class="t-home breadcrumb-item" href="index.html"></a>
