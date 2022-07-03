@@ -457,93 +457,12 @@ var ads = JSON.parse(localStorage.getItem("ads"));
 var comments = JSON.parse(localStorage.getItem("comments"));
 
 
-
-document.addEventListener("DOMContentLoaded", function () {
-    if (window.innerWidth < 992) {
-        document.querySelectorAll('.navbar .dropdown').forEach(function (everydropdown) {
-            everydropdown.addEventListener('hidden.bs.dropdown', function () {
-                this.querySelectorAll('.submenu').forEach(function (everysubmenu) {
-                    everysubmenu.style.display = 'none';
-                });
-            })
-        });
-
-        document.querySelectorAll('.dropdown-menu a').forEach(function (element) {
-            element.addEventListener('click', function (e) {
-                let nextEl = this.nextElementSibling;
-                if (nextEl && nextEl.classList.contains('submenu')) {
-                    e.preventDefault();
-                    nextEl.style.display = nextEl.style.display == 'block' ? 'none' : 'block';
-                }
-            });
-        })
-    }
-});
-
 $(function () {
-    $("body").prepend(`
-    <header>
-        <nav class="navbar navbar-expand-lg  bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/VD-Project/index.html"><img id="logo" src="/VD-Project/assets/logo.png"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="main_nav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active"> <a class="t-home nav-link " href="/VD-Project/index.html"></a> </li>
-                        <li class="nav-item"> <a class="t-about nav-link " href="/VD-Project/onama.html"></a> </li>
-                        <li class="nav-item dropdown" id="myDropdown">
-                            <a class="t-animals nav-link dropdown-toggle" href="/VD-Project/zivotinje.html"
-                                data-bs-toggle="dropdown"></a>
-                            <ul class="dropdown-menu">
-                                <li> <a class="t-dogs dropdown-item" href="/VD-Project/zivotinje/psi.html"></a>
-                                    <ul class="submenu dropdown-menu">
-                                        <li><a class="dropdown-item" href="/VD-Project/zivotinje/psi/meda.html">Meda</a></li>
-                                        <li><a class="dropdown-item" href="/VD-Project/zivotinje/psi/zuca.html">Žuća</a></li>
-                                        <li><a class="dropdown-item" href="/VD-Project/zivotinje/psi/don.html">Don</a></li>
-                                    </ul>
-                                </li>
-                                <li> <a class="t-cats dropdown-item" href="/VD-Project/zivotinje/macke.html"></a>
-                                    <ul class="submenu dropdown-menu">
-                                        <li><a class="dropdown-item" href="/VD-Project/zivotinje/macke/ana.html">Ana</a></li>
-                                        <li><a class="dropdown-item" href="/VD-Project/zivotinje/macke/luna.html">Luna</a></li>
-                                        <li><a class="dropdown-item" href="/VD-Project/zivotinje/macke/bea.html">Bea</a></li>
-                                    </ul>
-                                </li>
-                                <li> <a class="t-birds dropdown-item" href="/VD-Project/zivotinje/ptice.html"></a>
-                                    <ul class="submenu dropdown-menu">
-                                        <li><a class="dropdown-item" href="/VD-Project/zivotinje/ptice/didi.html">Didi</a></li>
-                                        <li><a class="dropdown-item" href="/VD-Project/zivotinje/ptice/edi.html">Edi</a></li>
-                                        <li><a class="dropdown-item" href="/VD-Project/zivotinje/ptice/gasa.html">Gaša</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"> <a class="t-lostpets nav-link " href="/VD-Project/oglasi.html"></a> </li>
-                        <li class="nav-item logged"> <a class="t-createad nav-link " href="/VD-Project/napravioglas.html"></a> </li>
-                        <li class="nav-item logged"> <a class="t-myacc nav-link " href="/VD-Project/profil.html"></a> </li>
-                        <li class="nav-item logged"> <a id="logout" class="t-logout pointer nav-link " ></a> </li>
-                        <li class="nav-item notlogged"> <a href="/VD-Project/login.html" class="t-login nav-link"></a> </li>
-                    </ul>
-                </div>
-                <span id="lang" class="nav-link " href="#">
-                    <img src="/VD-Project/assets/flags/rs.svg" class="flag rs"></i>
-                    <img src="/VD-Project/assets/flags/gb.svg" class="flag en"></i>
-                </span>
-            </div>
-        </nav>
-    </header>`
-    ).append(`
+    $("body").append(`
     <footer>
         <span class="t-copyright"></span>
     </footer>`
     );
-
-    $("head").append(`
-    <link rel="icon" type="image/x-icon" href="/VD-Project/assets/favicon.png">
-    `)
 
     if (logged != null) {
         $(".logged").show();
