@@ -5,7 +5,7 @@ $(function () {
 
     for (let i = 0; i < ads.length; i++) {
         if (ads[i]["user"] == logged) {
-            $("#ads").append(`<div name="${i}" class="pointer ad border rounded p-3 my-2"><h5>${ads[i]["name"]}</h5> ${ads[i]["text"]} <br> ${ads[i]["contact"]} </div>`)
+            $("#ads").append(`<div name="${i}" class="overflow-auto pointer ad border rounded p-3 my-2"><h5>${ads[i]["name"]}</h5> ${ads[i]["text"]} <br> ${ads[i]["contact"]} </div>`)
         }
     }
 
@@ -13,7 +13,7 @@ $(function () {
         if (comments[i]["user"] == logged) {
             if (!$(`#${comments[i]["ad"]}`).length) $("#comments").append(`<div name="${comments[i]["ad"]}" id="${comments[i]["ad"]}" class="pointer ad border rounded p-3 my-2"><h5>${ads[comments[i]['ad']]["name"]}</h5></div>`)
 
-            $(`#${comments[i]["ad"]}`).append(`<p>${comments[i]["text"]}</p>`)
+            $(`#${comments[i]["ad"]}`).append(`<p class="overflow-auto">${comments[i]["text"]}</p>`)
         }
     }
 
