@@ -633,8 +633,8 @@ var trans = {
 
     "lostpets": {
         html: {
-            "rs": "Izgubljeni Ljubimci",
-            "en": "Missing Pets"
+            "rs": "Izgubljeni ljubimci",
+            "en": "Missing pets"
         }
     },
 
