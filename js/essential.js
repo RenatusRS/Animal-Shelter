@@ -715,6 +715,13 @@ var trans = {
         }
     },
 
+    "locationspecific": {
+        html: {
+            "rs": "Zlatiborska 13, Zemun, Beograd, Srbija",
+            "en": "Zlatiborska 13, Zemun, Belgrade, Serbia"
+        }
+    },
+
     "article1t": {
         html: {
             "rs": "Izdresiraj svog psa!",
