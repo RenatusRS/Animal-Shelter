@@ -1,4 +1,4 @@
-@media all and (min-width: 992px) {
+@media all {
     .dropdown-menu li {
         position: relative;
     }
@@ -19,9 +19,7 @@
         background-color: #f1f1f1
     }
 
-    .dropdown-menu>li:hover>.submenu {
-        display: block;
-    }
+
 
     .navbar .nav-item .dropdown-menu.first {
         display: none;
@@ -33,6 +31,12 @@
 
     .navbar .nav-item .dropdown-menu {
         margin-top: 0;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .dropdown-menu>li:hover>.submenu {
+        display: block;
     }
 }
 
