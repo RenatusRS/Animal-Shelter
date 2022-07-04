@@ -95,6 +95,13 @@ if (localStorage.getItem("lang") == null) {
 }
 
 var trans = {
+    "bluepaw": {
+        html: {
+            "rs": "Plava Šapa",
+            "en": "Blue Paw"
+        }
+    },
+
     "oglastit": {
         html: {
             "rs": "Oglas - Plava Šapa",
@@ -706,8 +713,97 @@ var trans = {
             "rs": "Ostavi komentar",
             "en": "Leave comment",
         }
-    }
+    },
 
+    "article1t": {
+        html: {
+            "rs": "Izdresiraj svog psa!",
+            "en": "Train your dog!",
+        }
+    },
+
+    "article1": {
+        html: {
+            "rs": `Da biste ispravno započeli sa svojim štenetom, ono će morati da zna šta očekujete od njega. Ovo će ga naterati da se oseća sigurnim u svojoj sposobnosti da ispuni ciljeve tražene od njega u budućnosti.
+
+            Osnova obuke treba da bude zasnovana na pozitivnom potkrepljivanju. Pozitivno pojačanje je proces davanja psu (ili osobi!) nagrade da podstakne ponašanje koje želite, kao što je primanje plate za odlazak na posao. Ideja nije da se podmiti ponašanje, već da se trenira koristeći nešto što vaš pas ceni. Izbegavajte upotrebu kazni kao što su korekcije uzice ili vikanje. Kazna može dovesti do toga da pas postane zbunjen i nesiguran šta se od njega traži. Važno je zapamtiti da ne možemo očekivati da psi znaju ono što ne znaju - baš kao što ne biste očekivali da dvogodišnje dete zna kako da veže cipele. Strpljenje će pomoći vašem novom štenetu da nauči kako da se ponaša.
+            
+            Pojačanje može biti sve što vaš pas voli. Većina ljudi koristi male komade hrane „visoke vrednosti“ za poslastice za trening - nešto posebno - kao što je zamrzavanje sušena jetra. Pohvala ili prilika da se igrate sa omiljenom igračkom takođe se mogu iskoristiti kao nagrada. Psi se moraju naučiti da vole pohvale. Ako psu date poslasticu dok kažete "Dobar pas!" srećnim glasom naučiće da je pohvala dobra stvar i da može biti nagrada. Neki psi takođe uživaju u maženju. Hrana je često najpogodniji način za jačanje ponašanja.
+            
+            Štenci mogu započeti vrlo jednostavnu obuku čim dođu kući, obično oko 8 nedelja. Treninzi neka budu kratki — samo 5 do 10 minuta — i neka se uvek završavaju pozitivno. Ako vaše štene ima problema sa učenjem novog ponašanja, završite sesiju tako što ćete pregledati nešto što već zna i dajte mu mnogo pohvala i veliku nagradu za njegov uspeh. Ako se vašem štenetu dosadi ili frustrira, to će na kraju biti kontraproduktivno za učenje.`,
+            "en": `To start off on the right foot (and paw!) with your pup, he'll need to know what you expect from him. This will make him feel secure in his ability to meet the goals laid out for him going forward.
+
+            The foundation of training should be based on positive reinforcement. Positive reinforcement is the process of giving a dog (or person!) a reward to encourage the behavior you want, like getting a paycheck for going to work. The idea is not to bribe the behavior but to train it using something your dog values. Avoid using punishment such as leash corrections or yelling. Punishment can cause a dog to become confused and unsure about what is being asked of him.  It is important to remember that we can't expect dogs to know what they don't know - just like you wouldn't expect a 2-year-old child to know how to tie his shoes. Patience will go a long way in helping your new puppy learn how to behave.
+            
+            Reinforcement can be anything your dog likes. Most people use small pieces of a “high value” food for training treats — something special — such as freeze-dried liver. Praise or the chance to play with a favorite toy can also be used as a reward. Dogs must be taught to like praise. If you give the dog a treat while saying “Good dog!” in a happy voice, he will learn that praise is a good thing and can be a reward. Some dogs also enjoy petting. Food is often the most convenient way to reinforce behavior.
+            
+            Puppies can begin very simple training starting as soon as they come home, usually around 8 weeks old. Always keep training sessions brief — just 5 to 10 minutes —and always end on a positive note. If your puppy is having trouble learning a new behavior, end the session by reviewing something he already knows and give him plenty of praise and a big reward for his success. If your puppy gets bored or frustrated, it will ultimately be counterproductive to learning.`,
+        }
+    },
+
+    "article2t": {
+        html: {
+            "rs": "UDOMI: Australijska tigrica Didi!",
+            "en": "ADOPT: Budgerigar Didi!",
+        }
+    },
+
+    "article2": {
+        html: {
+            "rs": "Australijska tigrica Didi traži dom! Više detalja o Didi možete da vidite u sekciji za ptice!",
+            "en": "Budgerigar Didi is looking for a home! You can view more details about Didi in the avians section!",
+        }
+    },
+
+    "article3t": {
+        html: {
+            "rs": "Higijena ptičijeg kaveza",
+            "en": "Birdcage hygiene",
+        }
+    },
+
+    "article3": {
+        html: {
+            "rs": `Pošto ptice jedu i vrše nuždu u svojim kavezima, neophodno je da im kavezi budu što čistiji. Dno kaveza treba da bude obloženo papirom za jednokratnu upotrebu kao što su novine koje se može baciti svaki dan. Novinski papir ne sadrži olovo, tako da je netoksičan za ptice čak i ako ga žvaću. Bele ptice koje insistiraju da se igraju u novinama mogu dobiti sivu boju na svom belom perju, ali to se lako ispere.
+
+            Brusni papir koji se prodaje u prodavnicama za kućne ljubimce za oblaganje dna kaveza ne bi trebalo da se koristi, jer ptice mogu pokupiti pesak, progutati ga i razviti opstrukcije gastrointestinalnog trakta. Iverice i strugotine, glina, iseckani ili reciklirani papir i posteljina u klipu se ne preporučuju iz mnogo razloga. Što je najvažnije, ako ptice progutaju ove čestice, one su neprobavljive i mogu izazvati opstrukciju gastrointestinalnog trakta, poput peska. Osim toga, prašina sa ovih vrsta posteljine može biti potencijalno iritantna za disanje, posebno od aromatičnih borova i kedra. Štaviše, mnogi vlasnici zanemaruju da svakodnevno menjaju kavez sa ovim proizvodima (pošto svaki dan postaje sve skuplji za izbacivanje i zamenu) što dovodi do nakupljanja stolice i otpada od hrane na dnu kaveza. Konačno, praktično je nemoguće sa ovim pokrivačima dna kaveza sa česticama pratiti boju, konzistenciju i vlažnost izmeta - što sve može biti važan odraz zdravlja ptice.`,
+            "en": `As birds both eat and defecate in their cages, it is essential to keep their cages as clean as possible. The bottom of the cage should be lined with a disposable paper such as newspaper which can be thrown away every day. Newsprint is now free of lead so it is non-toxic to birds even if they chew on it. White birds that insist on playing in the newspaper may get grey newsprint on their white feathers, but this is easily washed off.
+
+            The sandpaper sold in the pet stores to line the bottom of the cage should not be used, as birds may pick off the sand, ingest it, and develop gastrointestinal tract obstructions. Wood chips and shavings, clay, shredded or recycled paper, and corncob bedding are not recommended for many reasons. Most importantly, if birds ingest this particulate matter, it is indigestible and can cause obstruction of the gastrointestinal tract, like sand. In addition, dust from these types of bedding can be potential respiratory irritants, especially from aromatic pines and cedars. Furthermore, many owners neglect to change the cage daily with these products (since it becomes more expensive to throw out and replace every day) resulting in the accumulation of stool and food waste on the bottom on the cage. Finally, it is virtually impossible with these particulate cage bottom coverings to monitor the color, consistency, and wetness of the feces - all of which can be important reflections of a bird's health.`,
+        }
+    },
+
+    "article4t": {
+        html: {
+            "rs": "UDOMI: Zlatni retriver Meda!",
+            "en": "ADOPT: Golden retreiver Meda!",
+        }
+    },
+
+    "article4": {
+        html: {
+            "rs": "Zlatni retriver Meda traži dom! Više detalja o Medi možete da vidite u sekciji za pse!",
+            "en": "Golden retreiver Meda is looking for a home! You can view more details about Meda in the dogs section!",
+        }
+    },
+
+    "article5t": {
+        html: {
+            "rs": "Mačke i kutije",
+            "en": "Cats & Boxes",
+        }
+    },
+
+    "article5": {
+        html: {
+            "rs": `Mačke dobijaju udobnost i sigurnost iz zatvorenih prostora, zbog čega vole da provode vreme u kartonskim kutijama. Mačke koriste kutije kao skrovišta gde predatori ne mogu da im se prišunjaju sa strane ili pozadi. Ako je vaša mačka u kutiji, svi „uljezi“ poput plena, ljudi ili drugih kućnih ljubimaca moraju da dođu direktno u njihovo vidno polje, što znači da ih ništa ne može iznenaditi.
+
+            I mačke vole kutije jer pomažu u smanjenju stresa i nude bezbednu zonu gde vaša mačka može da posmatra, a ne da je niko ne vidi. Ovo je idealno za mačke jer je njihova reakcija na stresne situacije često bežanje i skrivanje. Mačke nemaju ugrađene strategije za rešavanje sukoba, pa mnogo radije da se sakriju od svojih problema. Sigurnost privatnog, zatvorenog prostora je još jedan mogući odgovor na pitanje zašto mačke vole kutije.`,
+            "en": `Cats get comfort and security from enclosed spaces, which is why they love spending time in cardboard boxes. Cats use boxes as hiding places where predators can't sneak up on them from the side or behind. If your cat is in a box, any “intruders” like prey, humans or other pets have to come directly into their field of vision, meaning nothing can surprise them.
+
+            And cats like boxes because they help to reduce stress and offer a safe zone where your cat can observe and not be seen. This is ideal for cats as their reaction to stressful situations is often to run and hide. Cats don't have in-built conflict resolution strategies, so they much prefer to hide from their problems. The safety of the private, enclosed space is another possible answer to why do cats like boxes.`
+        }
+    }
 }
 
 var lang = localStorage.getItem("lang");
@@ -719,9 +815,9 @@ var comments = JSON.parse(localStorage.getItem("comments"));
 
 $(function () {
     $("body").append(`
-    <footer>
-        <span class="t-copyright"></span>
-    </footer>`
+                <footer>
+                <span class="t-copyright"></span>
+    </footer> `
     );
 
     if (logged != null) {
@@ -751,6 +847,11 @@ $(function () {
 
         })
     }
+
+    $(".ad").click(function () {
+        localStorage.setItem("ad", $(this).attr("name"));
+        window.location.href = "oglasi/oglas.html"
+    })
 
     $("#lang").click(function () {
         $("." + lang).hide();
