@@ -104,134 +104,134 @@ var trans = {
 
     "oglastit": {
         html: {
-            "rs": "Oglas - Plava Šapa",
-            "en": "Ad - Blue Paw"
+            "rs": "Oglas",
+            "en": "Ad"
         }
     },
 
     "anatit": {
         html: {
-            "rs": "Ana - Plava Šapa",
-            "en": "Ana - Blue Paw"
+            "rs": "Ana",
+            "en": "Ana"
         }
     },
 
     "beatit": {
         html: {
-            "rs": "Bea - Plava Šapa",
-            "en": "Bea - Blue Paw"
+            "rs": "Bea",
+            "en": "Bea"
         }
     },
 
     "lunatit": {
         html: {
-            "rs": "Luna - Plava Šapa",
-            "en": "Luna - Blue Paw"
+            "rs": "Luna",
+            "en": "Luna"
         }
     },
 
     "dontit": {
         html: {
-            "rs": "Don - Plava Šapa",
-            "en": "Don - Blue Paw"
+            "rs": "Don",
+            "en": "Don"
         }
     },
 
     "medatit": {
         html: {
-            "rs": "Meda - Plava Šapa",
-            "en": "Meda - Blue Paw"
+            "rs": "Meda",
+            "en": "Meda"
         }
     },
 
     "zucatit": {
         html: {
-            "rs": "Žuća - Plava Šapa",
-            "en": "Žuća - Blue Paw"
+            "rs": "Žuća",
+            "en": "Žuca"
         }
     },
 
     "diditit": {
         html: {
-            "rs": "Didi - Plava Šapa",
-            "en": "Didi - Blue Paw"
+            "rs": "Didi",
+            "en": "Didi"
         }
     },
 
     "editit": {
         html: {
-            "rs": "Edi - Plava Šapa",
-            "en": "Edi - Blue Paw"
+            "rs": "Edi",
+            "en": "Edi"
         }
     },
 
     "gasatit": {
         html: {
-            "rs": "Gaša - Plava Šapa",
-            "en": "Gaša - Blue Paw"
+            "rs": "Gaša",
+            "en": "Gasha"
         }
     },
 
     "macketit": {
         html: {
-            "rs": "Mačke - Plava Šapa",
-            "en": "Cats - Blue Paw"
+            "rs": "Mačke",
+            "en": "Cats"
         }
     },
 
     "psitit": {
         html: {
-            "rs": "Psi - Plava Šapa",
-            "en": "Dogs - Blue Paw"
+            "rs": "Psi",
+            "en": "Dogs"
         }
     },
 
     "pticetit": {
         html: {
-            "rs": "Ptice - Plava Šapa",
-            "en": "Avians - Blue Paw"
+            "rs": "Ptice",
+            "en": "Avians"
         }
     },
 
     "logintit": {
         html: {
-            "rs": "Prijava - Plava Šapa",
-            "en": "Login - Blue Paw"
+            "rs": "Prijava",
+            "en": "Login"
         }
     },
 
     "napraviotit": {
         html: {
-            "rs": "Napravi oglas - Plava Šapa",
-            "en": "Create ad - Blue Paw"
+            "rs": "Napravi oglas",
+            "en": "Create ad"
         }
     },
 
     "oglasitit": {
         html: {
-            "rs": "Oglasi - Plava Šapa",
-            "en": "Ads - Blue Paw"
+            "rs": "Oglasi",
+            "en": "Ads"
         }
     },
 
     "onamatit": {
         html: {
-            "rs": "O nama - Plava Šapa",
-            "en": "About us - Blue Paw"
+            "rs": "O nama",
+            "en": "About us"
         }
     },
 
     "profiltit": {
         html: {
-            "rs": "Profil - Plava Šapa",
-            "en": "Profile - Blue Paw"
+            "rs": "Profil",
+            "en": "Profile"
         }
     },
 
     "zivotinjetit": {
         html: {
-            "rs": "Životinje - Plava Šapa",
-            "en": "Animals - Blue Paw"
+            "rs": "Životinje",
+            "en": "Animals"
         }
     },
 
@@ -300,15 +300,15 @@ var trans = {
 
     "medaprev": {
         html: {
-            "rs": "Meda je zlatni retriver. Lepo se slaže sa drugim kucama. Potreban je dom.",
-            "en": "Meda is a golden retriever. He goes along well with other doggies. He needs a home."
+            "rs": "Meda je zlatni retriver. Lepo se slaže sa drugim kucama. Potreban mu je dom.",
+            "en": "Meda is a golden retriever. He goes along well with other dogs. He needs a home."
         }
     },
 
     "zucaprev": {
         html: {
             "rs": "Žuća je star nešto više od godinu dana. Miroljubiv je i razigran. Miran je u kući.",
-            "en": "Žuća is a little over a year old. He is peaceful and playful. He is calm in the house."
+            "en": "Žuca is a little over a year old. He is peaceful and playful. He is calm in the house."
         }
     },
 
@@ -342,22 +342,15 @@ var trans = {
 
     "donprev": {
         html: {
-            "rs": "Don je umiljati nemački ovčar, velika maza i slaže se sa drugim kucama.",
-            "en": "Don is a sweet German shepherd, a big dog and gets along well with other dogs."
+            "rs": "Don je umiljati nemački ovčar i velika je maza. Dobro se slaže sa drugim psima.",
+            "en": "Don is a sweet German shepherd; he's a big dog and gets along well with other dogs."
         }
     },
 
     "anaprev": {
         html: {
-            "rs": "Devojčica. Vesela je i nežna. Ona Voli ljude. Očišćena je od parazita.",
-            "en": "Little girl. She is cheerful and gentle. She Loves People. She was cleared of parasites."
-        }
-    },
-
-    "didiful": {
-        html: {
-            "rs": "Tigrice su vrlo društveni kućni ljubimci i vole da žive u paru. Ukoliko će biti kod kuće same više od 5 sati dnevno, svakako nabavite još jednu tigricu. Usamljena tigrica može i da se razboli. Nije redak slučaj da, ukoliko nemaju društvo, ovi kućni ljubimci počnu da čupaju sebi perje sa krila i repa. Imaju sposobnost oponašanja ljudskog govora i drugih zvukova, pa ukoliko im posvetite malo vremena i truda svaki dan, mogu da nauče da izgovaraju nekoliko reči. Za razliku od drugih vrsta papagaja kao što su ara, žako i kakadu, žive od 10 do 14 godina. Vrlo su živahne i radoznale, pa su idealni kućni ljubimci za decu.",
-            "en": "Budgerigars are very social pets and like to live in pairs. If she will be home alone for more than 5 hours a day, definitely get another budgerigar. A lonely budgerigar  can also get sick. It is not a rare case that, if they do not have company, these pets start to pluck feathers from their wings and tails. They have the ability to imitate human speech and other sounds, so if you give them a little time and effort every day, they can learn to say a few words. Unlike other types of parrots such as macaws, jays and cockatoos, they live from 10 to 14 years. They are very lively and curious, so they are ideal pets for children."
+            "rs": "Vesela i nežna devojčica. Voli da se druži sa ljudima. Očišćena je od parazita.",
+            "en": "Cheerful and gentle female. Likes to interact with people. She was cleared of parasites."
         }
     },
 
@@ -370,11 +363,10 @@ var trans = {
 
     "lunafull": {
         html: {
-            "rs": "Sterilisana, vakcinisana i ociscena od parazita. Umiljata sam, volim da sedim u krilu, lepo se slazem sa drugim macama. Samo trazim da me neko voli onako kako cu ja voleti vas.",
-            "en": "Sterilized, vaccinated and cleared of parasites. I'm cuddly, I like to sit on your lap, I get along well with other cats. I'm just asking for someone to love me the way I will love you."
+            "rs": "Sterilisana, vakcinisana i ociscena od parazita. Slatka, voli da sedi u krilu.",
+            "en": "Sterilized, vaccinated, and cleared of parasites. She's cute and likes to sit on your lap."
         }
     },
-
 
     "lunaprev": {
         html: {
@@ -486,7 +478,7 @@ var trans = {
     "gasaprev": {
         html: {
             "rs": "Gaša je mlada druželjubiva nimfa. Nimfa papagaji su dobri i poslušni učenici pa se lako i brzo pripitome.",
-            "en": "Gasa is a young friendly nymph. Nymph parrots are good and obedient students, so they are easily and quickly tamed."
+            "en": "Gasha is a young friendly nymph. Nymph parrots are good and obedient students, so they are easily and quickly tamed."
         }
     },
 
@@ -570,8 +562,8 @@ var trans = {
 
     "makead": {
         html: {
-            "rs": "Napravite oglas",
-            "en": "Create ad"
+            "rs": "Napravi Oglas",
+            "en": "Create Ad"
         }
     },
 
@@ -654,22 +646,22 @@ var trans = {
 
     "createad": {
         html: {
-            "rs": "Napravi oglas",
-            "en": "Create ad"
+            "rs": "Napravi Oglas",
+            "en": "Create Ad"
         }
     },
 
     "myacc": {
         html: {
-            "rs": "Moj nalog",
-            "en": "My account"
+            "rs": "Moj Nalog",
+            "en": "My Account"
         }
     },
 
     "copyright": {
         html: {
-            "rs": "Copyright © 2022, Plava Šapa, Uroš Lončar, Đorđe Stanojević<br> Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu",
-            "en": "Copyright © 2022, Blue Paw, Uroš Lončar, Đorđe Stanojević<br> Software Engineering department, Faculty of Electrical Engineering, University of Belgrade"
+            "rs": "Copyright © 2022, Plava Šapa<br> Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu",
+            "en": "Copyright © 2022, Blue Paw<br> Software Engineering department, Faculty of Electrical Engineering, University of Belgrade"
         }
     },
 
@@ -689,15 +681,15 @@ var trans = {
 
     "myads": {
         html: {
-            "rs": "Moji oglasi",
-            "en": "My ads",
+            "rs": "Moji Oglasi",
+            "en": "My Ads",
         }
     },
 
     "mycomments": {
         html: {
-            "rs": "Moji komentari",
-            "en": "My comments"
+            "rs": "Moji Komentari",
+            "en": "My Comments"
         }
     },
 
