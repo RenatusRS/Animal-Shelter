@@ -431,14 +431,12 @@ var trans = {
         }
     },
 
-
     "africang": {
         html: {
             "rs": "Žako",
             "en": "Afrikan gray parrot"
         }
     },
-
 
     "tigrica": {
         html: {
@@ -495,7 +493,6 @@ var trans = {
             "en": "Z-A"
         }
     },
-
 
     "petpower": {
         html: {
