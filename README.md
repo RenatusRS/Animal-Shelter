@@ -1,4 +1,5 @@
 # Animal Shelter
+> Project for **Web Design** / **Veb Dizajn** class.
 
 Built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap**, this website aims to facilitate the work for shelter employees while aiming to increase visitor traffic.
 
