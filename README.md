@@ -13,7 +13,7 @@ Built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap**, this website a
 
 ## How-To Run
 
-Download the project and open `index.html` in your web browser or use the [online version](https://renatusrs.github.io/VD-Project/).
+Download the project and open `index.html` in your web browser or use the [online version](https://renatusrs.github.io/Animal-Shelter/).
 
 #### User Login Details
 
