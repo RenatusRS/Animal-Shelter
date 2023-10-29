@@ -1,15 +1,14 @@
 # Animal Shelter
 > Project for **Web Design** / **Veb Dizajn** class.
 
-Built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap**, this website aims to facilitate the work for shelter employees while aiming to increase visitor traffic.
+Built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap**, the website functions as a platform for animal adoptions, hosts a variety of pet-related articles, and offers a community-driven space for reporting missing pets.
 
 ## Features
 
 - **Multi-Language Support**: Toggle between Serbian and English. Language preference is saved throughout the session.
 - **Animal Browsing**: Sort and filter animals by age, species, and name. Profiles include multiple images and videos.
-- **Missing Pets**: A community-driven lost and found section. Each ad has a PDF download option and a comment section.
+- **Missing Pets**: A community-driven lost and found section. Each ad has a comment section.
 - **User Account Management**: Registered users can manage their own "Missing Pet" posts and comments.
-- **Integrated Maps**: Google Maps pinpoints the shelter's location. The map is interactive, allowing for zoom and viewing the surrounding area.
 
 ## How-To Run
 
